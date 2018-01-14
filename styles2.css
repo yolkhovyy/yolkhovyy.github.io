@@ -1,0 +1,286 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-image: url(back.gif);
+	font-size: medium;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	scrollbar-base-color:#000000;
+	scrollbar-track-color:#6F6F6F;
+	scrollbar-face-color:#000000;
+	scrollbar-highlight-color:#7F7F7F;
+	scrollbar-3dlight-color:#000000;
+	scrollbar-darkshadow-color:#000000;
+	scrollbar-shadow-color:#7F7F7F;
+	scrollbar-arrow-color:#DDDDDD;
+}
+
+/*******************************************************************************
+ *  container
+ */ 
+
+div#container {
+	width: 930px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/*******************************************************************************
+ *  header
+ */ 
+
+div#header {
+	text-align: center;
+	letter-spacing: 0.15em;
+	font-size:0.7em;
+	color: #DDDDDD;
+}
+
+/*******************************************************************************
+ *  menu
+ */ 
+
+div#menu {
+	width: 700px;
+	padding-top: 4em;
+	padding-bottom: 3em;
+}
+
+div#menu ul{
+	list-style-type:none;
+	width:auto;
+	display:block;
+}
+
+div#menu ul li {
+	display:inline;
+	padding-right: 2.5em;
+	padding-left: 2.5em;
+}
+
+div#menu ul li a {
+	color:#DDDDDD;
+	text-decoration:none;
+}
+
+div#menu ul li a:hover {
+	color:#999999;
+}
+
+div#menu ul li a.selected {
+	color:#CC0000;
+}
+
+div#menu li#contact {
+	padding-right: 2em;
+	padding-left: 2em;
+}
+
+/*******************************************************************************
+ *  works
+ */ 
+
+div#works {
+	padding-bottom: 3em;
+	padding-top: 4em;
+	width: 200px;
+	float: right;
+	clear: right;
+	font-weight: bolder;
+	letter-spacing: 0.15em;
+}
+
+
+
+/*******************************************************************************
+ *  main
+ */ 
+
+div#main {
+	text-align: center;
+	color: #DDDDDD;
+	height: 410px;
+}
+
+/*******************************************************************************
+ *  thumbnails
+ */ 
+
+div#thumbnails {
+	width: 200px;
+	height:410px;
+	float: right;
+	clear: right;
+	overflow:auto;
+	text-align: right;
+	color: #DDDDDD;
+}
+
+div#thumbnails div {
+	width:auto;
+	height:45px;
+	clear:both;
+	margin-bottom: 7px;
+	letter-spacing: normal;
+/*	border-bottom:1px solid #444444;*/
+}
+
+div.odd {
+	background-color:#3F3F3F;
+}
+
+div#thumbnails img {
+	border:none;
+	float:right;
+	padding:0px 7px;
+}
+
+div#thumbnails a {
+	font-size:0.7em;
+	color: #DDDDDD;
+	text-decoration:none;
+}
+
+div#thumbnails a:hover {
+	color: #999999;
+}
+
+div#thumbnails a.selected {
+	color:#CC0000;
+}
+
+/*******************************************************************************
+ *  main_image_container
+ */ 
+
+div#main_image_container {
+	text-align: center;
+	color: #DDDDDD;
+	text-decoration:none;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	height: 1px;
+}
+
+div#main_image_container a#email {
+	color: #DDDDDD;
+}
+
+div#main_image_container a#email:hover{
+	color:#999999
+}
+
+div#main_image_container p.contact{
+	vertical-align: middle;
+	font-size: 2em;
+	margin: 0.5em;
+}
+
+div#main_image_container a.scroll {
+	display:block;
+	width:auto;
+	text-decoration:none;
+}
+
+div#main_image_container a.scroll img {
+	border: none;
+}
+
+div#main_image_container img {
+	vertical-align: top;
+}
+
+/*******************************************************************************
+ *  scroll_panel_container
+ */ 
+
+div#scroll_panel_container {
+	text-align: center;
+	letter-spacing: 0.15em;
+	font-size:0.7em;
+	color: #DDDDDD;
+	top: 500px;
+}
+
+/*******************************************************************************
+ *  scroll_panel
+ */ 
+
+div#scroll_panel {
+	float: left;
+	width: 700px;
+	text-align: center;
+	padding-top: 2em;
+	padding-right: 0em;
+	padding-bottom: 2em;
+	padding-left: 0em;
+}
+
+div#scroll_panel a {
+	margin:0px 3px;
+	padding:0px 3px 1px 5px;
+	text-decoration:none;
+	color:#DDDDDD;
+	background-color:#363636;
+}
+
+div#scroll_panel a:hover {
+	color:#999999;
+}
+
+div#scroll_panel a.selected {
+	color:#CC0000;
+	font-weight: bolder;
+}
+
+/*******************************************************************************
+ *  titul
+ */ 
+
+div#titul {
+	clear: both;
+	width: 930px;
+	text-align: center;
+	margin-top: 5em;
+}
+
+/*******************************************************************************
+ *  footer
+ */ 
+
+div#footer {
+	font-size:0.65em;
+	padding-top: 3em;
+	color: #787878;
+	text-align: center;
+	letter-spacing: 0.08em;
+}
+
+img#wheel {
+	text-align: center;
+	width: 32px;
+	height: 32px;
+	color: #DDDDDD;
+	text-decoration:none;
+	position: absolute;
+	top: 180px;
+	left: 348px;
+	visibility: hidden;
+}
+
+img#main_image {
+	text-align: right;
+	border: 1px solid #666666;
+}
+
+.contact {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	letter-spacing: 0.1em;
+	color: #DDDDDD;
+	margin-bottom: 0.5em;
+}
