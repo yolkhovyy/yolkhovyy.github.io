@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Olkhovoy Serge</title>
+		<script type="text/javascript" src="http_request.js"></script>
+		<script type="text/javascript" src="main_image.js"></script>
+		<link href="styles2.css" rel="stylesheet" type="text/css" />
+		<!--[if IE]><style>body{font-size:0.8em}</style><![endif]-->
+	</head>
+	<body onload="get_num_images('photo/Azovskoe_More/')">
+		<div id="container">
+		
+			<div id="header">
+				<div id="works">
+					РАБОТЫ
+				</div>
+				<div id="menu">
+					<ul>
+						<li id="polygraphy"><a href="polygraphy.html">ПОЛИГРАФИЯ</a></li>
+						<li id="drawing"><a href="drawing.html">РИСУНОК</a></li>
+						<li id="photo"><a href="photo.html" class="selected">ФОТОГРАФИЯ</a></li>
+						<li id="ddd"><a href="3d.html">3D</a></li>
+						<li id="contact"><a href="contact.html">КОНТАКТ</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="main">			
+				<div id="thumbnails">
+					<div>
+						<a href="javascript:get_main_image('photo/Azovskoe_More/1.jpg',true)" onfocus="this.blur()" onclick="clear_works_selected(this)" class="selected">
+							<img src="photo/Azovskoe_More/tn.jpg" alt="Портфолио Ольхового Сергея"/>
+							<p>Азовское море</p>
+						</a>
+					</div>
+					<div>
+						<a href="javascript:get_main_image('photo/Babochka/1.jpg',true)" onfocus="this.blur()" onclick="clear_works_selected(this)">
+							<img src="photo/Babochka/tn.jpg" alt="Портфолио Ольхового Сергея"/>
+							<p>Бабочка</p>
+						</a>
+					</div>
+					<div>
+						<a href="javascript:get_main_image('photo/Moscow/1.jpg',true)" onfocus="this.blur()" onclick="clear_works_selected(this)">
+							<img src="photo/Moscow/tn.jpg" alt="Портфолио Ольхового Сергея"/>
+							<p>Москва</p>
+						</a>
+					</div>
+					<div>
+						<a href="javascript:get_main_image('photo/Model_Larisa/1.jpg',true)" onfocus="this.blur()" onclick="clear_works_selected(this)">
+							<img src="photo/Model_Larisa/tn.jpg" alt="Портфолио Ольхового Сергея"/>
+							<p>Модель Лариса</p>
+						</a>
+					</div>
+					<div>
+						<a href="javascript:get_main_image('photo/Macro/1.jpg',true)" onfocus="this.blur()" onclick="clear_works_selected(this)">
+							<img src="photo/Macro/tn.jpg" alt="Портфолио Ольхового Сергея"/>
+							<p>Макросъемка</p>
+						</a>
+					</div>
+					<div>
+						<a href="javascript:get_main_image('photo/Model_Julia/1.jpg',true)" onfocus="this.blur()" onclick="clear_works_selected(this)">
+							<img src="photo/Model_Julia/tn.jpg" alt="Портфолио Ольхового Сергея"/>
+							<p>Модель Юля</p>
+						</a>
+					</div>
+				</div>
+				<div id="main_image_container" >
+					<img src="photo/Azovskoe_More/1.jpg" id="main_image" alt="Портфолио Ольхового Сергея"/>
+				</div>
+			</div>
+			
+			<div id="scroll_panel_container">
+				<div id="scroll_panel">
+					<a id="scroll_left" class="scroll_steps" href="javascript:get_next_image('photo/Azovskoe_More/1.jpg',-1)">&#x3C;</a>
+					<span id="scroll_steps"></span>
+					<a id="scroll_right" class="scroll_steps" href="javascript:get_next_image('photo/Azovskoe_More/1.jpg',1)">&#x3E;</a>
+				</div>
+			</div>
+						
+			<div id="titul">
+				<img src="titul.gif" />
+			</div>
+			
+			<div id="footer">
+				<p>С благодарностью ко всем, кто помог мне укротить CSS</p>
+			</div>
+			
+		</div>
+	</body>
+</html>
