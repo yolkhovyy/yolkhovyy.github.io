@@ -36,6 +36,20 @@
 						</a>
 					</div>
 					<div>
+						<a href="javascript:get_main_image('polygraphy/Menu/1.jpg',true)" onfocus="this.blur()"
+						onclick="clear_works_selected(this)">
+							<img src="polygraphy/Menu/tn.jpg" width="50" height="45" alt="Портфолио Ольхового Сергея"/>
+							<p>Меню ресторана</p>
+						</a>
+					</div>
+					<div>
+						<a href="javascript:get_main_image('polygraphy/RusPP/1.jpg',true)" onfocus="this.blur()"
+						onclick="clear_works_selected(this)">
+							<img src="polygraphy/RusPP/tn.jpg" width="50" height="45" alt="Портфолио Ольхового Сергея"/>
+							<p>Географическое издание</p>
+						</a>
+					</div>
+					<div>
 						<a href="javascript:get_main_image('polygraphy/Chudesa/1.jpg',true)" onfocus="this.blur()"
 						onclick="clear_works_selected(this)">
 							<img src="polygraphy/Chudesa/tn.jpg" width="50" height="45" alt="Портфолио Ольхового Сергея"/>
@@ -192,21 +206,24 @@
 				</div>
 				<div id="main_image_container" >
 					<img id="wheel" src="wheel.gif" onfocus="this.blur()"/>
-					<img id="main_image" src="polygraphy/Chudesa_02/1.jpg" alt="Портфолио Ольхового Сергея"/>				</div>
+					<img src="polygraphy/Chudesa_02/1.jpg" id="main_image" alt="Портфолио Ольхового Сергея"/>
+				</div>
 			</div>
 			
 			<div id="scroll_panel_container">
 				<div id="scroll_panel">
-					<a id="scroll_left" class="scroll_steps" href="javascript:get_next_image('polygraphy/Chudesa_02/1.jpg',-1)" onfocus="this.blur()">&#x3C;</a>
+					<a id="scroll_left" class="scroll_steps" href="javascript:get_next_image('polygraphy/Chudesa_02/1.jpg',-1)">&#x3C;</a>
 					<span id="scroll_steps"></span>
-					<a id="scroll_right" class="scroll_steps" href="javascript:get_next_image('polygraphy/Chudesa_02/1.jpg',1)" onfocus="this.blur()">&#x3E;</a>				</div>
+					<a id="scroll_right" class="scroll_steps" href="javascript:get_next_image('polygraphy/Chudesa_02/1.jpg',1)">&#x3E;</a>
+				</div>
 			</div>
 						
 			<div id="titul">
 				<img src="titul.gif" border="0" usemap="#Map" />
 <map name="Map" id="Map"><area shape="rect" coords="770,26,799,41" href="dokumenty.html" />
+  <area shape="rect" coords="254,18,277,46" href="Flash.html" />
 </map>
-		  </div>
+  </div>
 			
 			<div id="footer">
 				<p>С благодарностью ко всем, кто помог мне укротить CSS</p>

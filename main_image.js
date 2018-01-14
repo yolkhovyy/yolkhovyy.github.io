@@ -7,7 +7,7 @@ var main_image;
 
 function image_loaded()
 {
-	setTimeout("document.getElementById('wheel').style.visibility = 'hidden';", 1000);
+	setTimeout("document.getElementById('wheel').style.visibility = 'hidden';", 1500);
 }
 
 
